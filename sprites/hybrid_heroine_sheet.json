@@ -1,0 +1,56 @@
+{
+ "char": "heroine",
+ "cell_256": 256,
+ "cell_50": 62,
+ "rows": [
+  {
+   "clip": "idle",
+   "dir": "S",
+   "frames": 8,
+   "durations_ms": [
+    312,
+    312,
+    312,
+    312,
+    312,
+    312,
+    312,
+    312
+   ],
+   "loop": true,
+   "root_256": [
+    142.7,
+    147.8
+   ],
+   "root_50": [
+    34.6,
+    35.8
+   ]
+  },
+  {
+   "clip": "idle",
+   "dir": "SE",
+   "frames": 8,
+   "durations_ms": [
+    312,
+    312,
+    312,
+    312,
+    312,
+    312,
+    312,
+    312
+   ],
+   "loop": true,
+   "root_256": [
+    142.7,
+    147.8
+   ],
+   "root_50": [
+    34.6,
+    35.8
+   ]
+  }
+ ],
+ "note": "row order = rows; root = ground point of the 3D rig in the cell (top-down px)"
+}
