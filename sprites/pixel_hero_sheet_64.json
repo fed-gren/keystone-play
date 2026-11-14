@@ -4,9 +4,9 @@
  "source": "art/charsys/tools/hero_sheet_render.py + hero_sheet_post.py, spec art/charsys/pixel_spike/production/production_spec.json",
  "figure_px": 64,
  "palette": "hero",
- "cell": 214,
- "cell_50": 214,
- "cell_256": 214,
+ "cell": 148,
+ "cell_50": 148,
+ "cell_256": 148,
  "client_schema_note": "cell_50/root_50 = this native sheet (1 sheet px = 1 world unit at the hero's 64 px scale). The client schema also requires cell_256/root_256; there is no 256 px sheet, so they repeat the native values (as the monster pipeline does).",
  "client_fallback": {
   "note": "Suggested CLIP_PREFERENCE chains for the motions this sheet adds; the client change is a separate task. death has no fallback on purpose: a dead hero should not stand in idle.",
@@ -49,16 +49,16 @@
    ],
    "loop": true,
    "root": [
-    107,
-    122
+    74,
+    99
    ],
    "root_50": [
-    107,
-    122
+    74,
+    99
    ],
    "root_256": [
-    107,
-    122
+    74,
+    99
    ],
    "roles": [
     "rest",
@@ -79,16 +79,16 @@
    ],
    "loop": true,
    "root": [
-    107,
-    122
+    74,
+    99
    ],
    "root_50": [
-    107,
-    122
+    74,
+    99
    ],
    "root_256": [
-    107,
-    122
+    74,
+    99
    ],
    "roles": [
     "rest",
@@ -109,16 +109,16 @@
    ],
    "loop": true,
    "root": [
-    107,
-    122
+    74,
+    99
    ],
    "root_50": [
-    107,
-    122
+    74,
+    99
    ],
    "root_256": [
-    107,
-    122
+    74,
+    99
    ],
    "roles": [
     "rest",
@@ -139,16 +139,16 @@
    ],
    "loop": true,
    "root": [
-    107,
-    122
+    74,
+    99
    ],
    "root_50": [
-    107,
-    122
+    74,
+    99
    ],
    "root_256": [
-    107,
-    122
+    74,
+    99
    ],
    "roles": [
     "rest",
@@ -169,16 +169,16 @@
    ],
    "loop": true,
    "root": [
-    107,
-    122
+    74,
+    99
    ],
    "root_50": [
-    107,
-    122
+    74,
+    99
    ],
    "root_256": [
-    107,
-    122
+    74,
+    99
    ],
    "roles": [
     "rest",
@@ -203,16 +203,16 @@
    ],
    "loop": true,
    "root": [
-    107,
-    122
+    74,
+    99
    ],
    "root_50": [
-    107,
-    122
+    74,
+    99
    ],
    "root_256": [
-    107,
-    122
+    74,
+    99
    ],
    "roles": [
     "loop",
@@ -241,16 +241,16 @@
    ],
    "loop": true,
    "root": [
-    107,
-    122
+    74,
+    99
    ],
    "root_50": [
-    107,
-    122
+    74,
+    99
    ],
    "root_256": [
-    107,
-    122
+    74,
+    99
    ],
    "roles": [
     "loop",
@@ -279,16 +279,16 @@
    ],
    "loop": true,
    "root": [
-    107,
-    122
+    74,
+    99
    ],
    "root_50": [
-    107,
-    122
+    74,
+    99
    ],
    "root_256": [
-    107,
-    122
+    74,
+    99
    ],
    "roles": [
     "loop",
@@ -317,16 +317,16 @@
    ],
    "loop": true,
    "root": [
-    107,
-    122
+    74,
+    99
    ],
    "root_50": [
-    107,
-    122
+    74,
+    99
    ],
    "root_256": [
-    107,
-    122
+    74,
+    99
    ],
    "roles": [
     "loop",
@@ -355,16 +355,16 @@
    ],
    "loop": true,
    "root": [
-    107,
-    122
+    74,
+    99
    ],
    "root_50": [
-    107,
-    122
+    74,
+    99
    ],
    "root_256": [
-    107,
-    122
+    74,
+    99
    ],
    "roles": [
     "loop",
@@ -393,16 +393,16 @@
    ],
    "loop": false,
    "root": [
-    107,
-    122
+    74,
+    99
    ],
    "root_50": [
-    107,
-    122
+    74,
+    99
    ],
    "root_256": [
-    107,
-    122
+    74,
+    99
    ],
    "roles": [
     "windup",
@@ -431,16 +431,16 @@
    ],
    "loop": false,
    "root": [
-    107,
-    122
+    74,
+    99
    ],
    "root_50": [
-    107,
-    122
+    74,
+    99
    ],
    "root_256": [
-    107,
-    122
+    74,
+    99
    ],
    "roles": [
     "windup",
@@ -469,16 +469,16 @@
    ],
    "loop": false,
    "root": [
-    107,
-    122
+    74,
+    99
    ],
    "root_50": [
-    107,
-    122
+    74,
+    99
    ],
    "root_256": [
-    107,
-    122
+    74,
+    99
    ],
    "roles": [
     "windup",
@@ -507,16 +507,16 @@
    ],
    "loop": false,
    "root": [
-    107,
-    122
+    74,
+    99
    ],
    "root_50": [
-    107,
-    122
+    74,
+    99
    ],
    "root_256": [
-    107,
-    122
+    74,
+    99
    ],
    "roles": [
     "windup",
@@ -545,16 +545,16 @@
    ],
    "loop": false,
    "root": [
-    107,
-    122
+    74,
+    99
    ],
    "root_50": [
-    107,
-    122
+    74,
+    99
    ],
    "root_256": [
-    107,
-    122
+    74,
+    99
    ],
    "roles": [
     "windup",
@@ -578,16 +578,16 @@
    ],
    "loop": false,
    "root": [
-    107,
-    122
+    74,
+    99
    ],
    "root_50": [
-    107,
-    122
+    74,
+    99
    ],
    "root_256": [
-    107,
-    122
+    74,
+    99
    ],
    "roles": [
     "launch",
@@ -606,16 +606,16 @@
    ],
    "loop": false,
    "root": [
-    107,
-    122
+    74,
+    99
    ],
    "root_50": [
-    107,
-    122
+    74,
+    99
    ],
    "root_256": [
-    107,
-    122
+    74,
+    99
    ],
    "roles": [
     "launch",
@@ -634,16 +634,16 @@
    ],
    "loop": false,
    "root": [
-    107,
-    122
+    74,
+    99
    ],
    "root_50": [
-    107,
-    122
+    74,
+    99
    ],
    "root_256": [
-    107,
-    122
+    74,
+    99
    ],
    "roles": [
     "launch",
@@ -662,16 +662,16 @@
    ],
    "loop": false,
    "root": [
-    107,
-    122
+    74,
+    99
    ],
    "root_50": [
-    107,
-    122
+    74,
+    99
    ],
    "root_256": [
-    107,
-    122
+    74,
+    99
    ],
    "roles": [
     "launch",
@@ -690,16 +690,16 @@
    ],
    "loop": false,
    "root": [
-    107,
-    122
+    74,
+    99
    ],
    "root_50": [
-    107,
-    122
+    74,
+    99
    ],
    "root_256": [
-    107,
-    122
+    74,
+    99
    ],
    "roles": [
     "launch",
@@ -718,16 +718,16 @@
    ],
    "loop": false,
    "root": [
-    107,
-    122
+    74,
+    99
    ],
    "root_50": [
-    107,
-    122
+    74,
+    99
    ],
    "root_256": [
-    107,
-    122
+    74,
+    99
    ],
    "roles": [
     "impact",
@@ -746,16 +746,16 @@
    ],
    "loop": false,
    "root": [
-    107,
-    122
+    74,
+    99
    ],
    "root_50": [
-    107,
-    122
+    74,
+    99
    ],
    "root_256": [
-    107,
-    122
+    74,
+    99
    ],
    "roles": [
     "impact",
@@ -774,16 +774,16 @@
    ],
    "loop": false,
    "root": [
-    107,
-    122
+    74,
+    99
    ],
    "root_50": [
-    107,
-    122
+    74,
+    99
    ],
    "root_256": [
-    107,
-    122
+    74,
+    99
    ],
    "roles": [
     "impact",
@@ -802,16 +802,16 @@
    ],
    "loop": false,
    "root": [
-    107,
-    122
+    74,
+    99
    ],
    "root_50": [
-    107,
-    122
+    74,
+    99
    ],
    "root_256": [
-    107,
-    122
+    74,
+    99
    ],
    "roles": [
     "impact",
@@ -830,16 +830,16 @@
    ],
    "loop": false,
    "root": [
-    107,
-    122
+    74,
+    99
    ],
    "root_50": [
-    107,
-    122
+    74,
+    99
    ],
    "root_256": [
-    107,
-    122
+    74,
+    99
    ],
    "roles": [
     "impact",
@@ -850,29 +850,27 @@
   {
    "clip": "death",
    "dir": "S",
-   "frames": 5,
+   "frames": 4,
    "durations_ms": [
-    80,
-    80,
-    80,
-    80,
+    90,
+    90,
+    100,
     1000
    ],
    "loop": false,
    "root": [
-    107,
-    122
+    74,
+    99
    ],
    "root_50": [
-    107,
-    122
+    74,
+    99
    ],
    "root_256": [
-    107,
-    122
+    74,
+    99
    ],
    "roles": [
-    "fall",
     "fall",
     "fall",
     "fall",
@@ -882,29 +880,27 @@
   {
    "clip": "death",
    "dir": "SE",
-   "frames": 5,
+   "frames": 4,
    "durations_ms": [
-    80,
-    80,
-    80,
-    80,
+    90,
+    90,
+    100,
     1000
    ],
    "loop": false,
    "root": [
-    107,
-    122
+    74,
+    99
    ],
    "root_50": [
-    107,
-    122
+    74,
+    99
    ],
    "root_256": [
-    107,
-    122
+    74,
+    99
    ],
    "roles": [
-    "fall",
     "fall",
     "fall",
     "fall",
@@ -914,29 +910,27 @@
   {
    "clip": "death",
    "dir": "E",
-   "frames": 5,
+   "frames": 4,
    "durations_ms": [
-    80,
-    80,
-    80,
-    80,
+    90,
+    90,
+    100,
     1000
    ],
    "loop": false,
    "root": [
-    107,
-    122
+    74,
+    99
    ],
    "root_50": [
-    107,
-    122
+    74,
+    99
    ],
    "root_256": [
-    107,
-    122
+    74,
+    99
    ],
    "roles": [
-    "fall",
     "fall",
     "fall",
     "fall",
@@ -946,29 +940,27 @@
   {
    "clip": "death",
    "dir": "NE",
-   "frames": 5,
+   "frames": 4,
    "durations_ms": [
-    80,
-    80,
-    80,
-    80,
+    90,
+    90,
+    100,
     1000
    ],
    "loop": false,
    "root": [
-    107,
-    122
+    74,
+    99
    ],
    "root_50": [
-    107,
-    122
+    74,
+    99
    ],
    "root_256": [
-    107,
-    122
+    74,
+    99
    ],
    "roles": [
-    "fall",
     "fall",
     "fall",
     "fall",
@@ -978,29 +970,27 @@
   {
    "clip": "death",
    "dir": "N",
-   "frames": 5,
+   "frames": 4,
    "durations_ms": [
-    80,
-    80,
-    80,
-    80,
+    90,
+    90,
+    100,
     1000
    ],
    "loop": false,
    "root": [
-    107,
-    122
+    74,
+    99
    ],
    "root_50": [
-    107,
-    122
+    74,
+    99
    ],
    "root_256": [
-    107,
-    122
+    74,
+    99
    ],
    "roles": [
-    "fall",
     "fall",
     "fall",
     "fall",
