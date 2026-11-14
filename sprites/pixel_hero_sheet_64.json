@@ -1,0 +1,1011 @@
+{
+ "char": "hero",
+ "label": "Hero production sheet (P4): 64 px pixel art, the rig as is, guard idle, run, attack A (slash), dash, hit, death; S, SE, E, NE, N rendered (W, SW, NW are mirrors).",
+ "source": "art/charsys/tools/hero_sheet_render.py + hero_sheet_post.py, spec art/charsys/pixel_spike/production/production_spec.json",
+ "figure_px": 64,
+ "palette": "hero",
+ "cell": 214,
+ "cell_50": 214,
+ "cell_256": 214,
+ "client_schema_note": "cell_50/root_50 = this native sheet (1 sheet px = 1 world unit at the hero's 64 px scale). The client schema also requires cell_256/root_256; there is no 256 px sheet, so they repeat the native values (as the monster pipeline does).",
+ "client_fallback": {
+  "note": "Suggested CLIP_PREFERENCE chains for the motions this sheet adds; the client change is a separate task. death has no fallback on purpose: a dead hero should not stand in idle.",
+  "chains": {
+   "idle": [
+    "idle"
+   ],
+   "move": [
+    "run",
+    "idle"
+   ],
+   "attack": [
+    "slash",
+    "idle"
+   ],
+   "dash": [
+    "dash",
+    "run",
+    "idle"
+   ],
+   "hit": [
+    "hit",
+    "idle"
+   ],
+   "death": [
+    "death"
+   ]
+  }
+ },
+ "rows": [
+  {
+   "clip": "idle",
+   "dir": "S",
+   "frames": 4,
+   "durations_ms": [
+    600,
+    250,
+    600,
+    250
+   ],
+   "loop": true,
+   "root": [
+    107,
+    122
+   ],
+   "root_50": [
+    107,
+    122
+   ],
+   "root_256": [
+    107,
+    122
+   ],
+   "roles": [
+    "rest",
+    "in",
+    "peak",
+    "out"
+   ]
+  },
+  {
+   "clip": "idle",
+   "dir": "SE",
+   "frames": 4,
+   "durations_ms": [
+    600,
+    250,
+    600,
+    250
+   ],
+   "loop": true,
+   "root": [
+    107,
+    122
+   ],
+   "root_50": [
+    107,
+    122
+   ],
+   "root_256": [
+    107,
+    122
+   ],
+   "roles": [
+    "rest",
+    "in",
+    "peak",
+    "out"
+   ]
+  },
+  {
+   "clip": "idle",
+   "dir": "E",
+   "frames": 4,
+   "durations_ms": [
+    600,
+    250,
+    600,
+    250
+   ],
+   "loop": true,
+   "root": [
+    107,
+    122
+   ],
+   "root_50": [
+    107,
+    122
+   ],
+   "root_256": [
+    107,
+    122
+   ],
+   "roles": [
+    "rest",
+    "in",
+    "peak",
+    "out"
+   ]
+  },
+  {
+   "clip": "idle",
+   "dir": "NE",
+   "frames": 4,
+   "durations_ms": [
+    600,
+    250,
+    600,
+    250
+   ],
+   "loop": true,
+   "root": [
+    107,
+    122
+   ],
+   "root_50": [
+    107,
+    122
+   ],
+   "root_256": [
+    107,
+    122
+   ],
+   "roles": [
+    "rest",
+    "in",
+    "peak",
+    "out"
+   ]
+  },
+  {
+   "clip": "idle",
+   "dir": "N",
+   "frames": 4,
+   "durations_ms": [
+    600,
+    250,
+    600,
+    250
+   ],
+   "loop": true,
+   "root": [
+    107,
+    122
+   ],
+   "root_50": [
+    107,
+    122
+   ],
+   "root_256": [
+    107,
+    122
+   ],
+   "roles": [
+    "rest",
+    "in",
+    "peak",
+    "out"
+   ]
+  },
+  {
+   "clip": "run",
+   "dir": "S",
+   "frames": 8,
+   "durations_ms": [
+    100,
+    100,
+    100,
+    100,
+    100,
+    100,
+    100,
+    100
+   ],
+   "loop": true,
+   "root": [
+    107,
+    122
+   ],
+   "root_50": [
+    107,
+    122
+   ],
+   "root_256": [
+    107,
+    122
+   ],
+   "roles": [
+    "loop",
+    "loop",
+    "loop",
+    "loop",
+    "loop",
+    "loop",
+    "loop",
+    "loop"
+   ]
+  },
+  {
+   "clip": "run",
+   "dir": "SE",
+   "frames": 8,
+   "durations_ms": [
+    100,
+    100,
+    100,
+    100,
+    100,
+    100,
+    100,
+    100
+   ],
+   "loop": true,
+   "root": [
+    107,
+    122
+   ],
+   "root_50": [
+    107,
+    122
+   ],
+   "root_256": [
+    107,
+    122
+   ],
+   "roles": [
+    "loop",
+    "loop",
+    "loop",
+    "loop",
+    "loop",
+    "loop",
+    "loop",
+    "loop"
+   ]
+  },
+  {
+   "clip": "run",
+   "dir": "E",
+   "frames": 8,
+   "durations_ms": [
+    100,
+    100,
+    100,
+    100,
+    100,
+    100,
+    100,
+    100
+   ],
+   "loop": true,
+   "root": [
+    107,
+    122
+   ],
+   "root_50": [
+    107,
+    122
+   ],
+   "root_256": [
+    107,
+    122
+   ],
+   "roles": [
+    "loop",
+    "loop",
+    "loop",
+    "loop",
+    "loop",
+    "loop",
+    "loop",
+    "loop"
+   ]
+  },
+  {
+   "clip": "run",
+   "dir": "NE",
+   "frames": 8,
+   "durations_ms": [
+    100,
+    100,
+    100,
+    100,
+    100,
+    100,
+    100,
+    100
+   ],
+   "loop": true,
+   "root": [
+    107,
+    122
+   ],
+   "root_50": [
+    107,
+    122
+   ],
+   "root_256": [
+    107,
+    122
+   ],
+   "roles": [
+    "loop",
+    "loop",
+    "loop",
+    "loop",
+    "loop",
+    "loop",
+    "loop",
+    "loop"
+   ]
+  },
+  {
+   "clip": "run",
+   "dir": "N",
+   "frames": 8,
+   "durations_ms": [
+    100,
+    100,
+    100,
+    100,
+    100,
+    100,
+    100,
+    100
+   ],
+   "loop": true,
+   "root": [
+    107,
+    122
+   ],
+   "root_50": [
+    107,
+    122
+   ],
+   "root_256": [
+    107,
+    122
+   ],
+   "roles": [
+    "loop",
+    "loop",
+    "loop",
+    "loop",
+    "loop",
+    "loop",
+    "loop",
+    "loop"
+   ]
+  },
+  {
+   "clip": "slash",
+   "dir": "S",
+   "frames": 8,
+   "durations_ms": [
+    40,
+    40,
+    130,
+    60,
+    50,
+    130,
+    60,
+    100
+   ],
+   "loop": false,
+   "root": [
+    107,
+    122
+   ],
+   "root_50": [
+    107,
+    122
+   ],
+   "root_256": [
+    107,
+    122
+   ],
+   "roles": [
+    "windup",
+    "windup",
+    "anticipation",
+    "contact",
+    "strike",
+    "follow",
+    "recover",
+    "recover"
+   ]
+  },
+  {
+   "clip": "slash",
+   "dir": "SE",
+   "frames": 8,
+   "durations_ms": [
+    40,
+    40,
+    130,
+    60,
+    50,
+    130,
+    60,
+    100
+   ],
+   "loop": false,
+   "root": [
+    107,
+    122
+   ],
+   "root_50": [
+    107,
+    122
+   ],
+   "root_256": [
+    107,
+    122
+   ],
+   "roles": [
+    "windup",
+    "windup",
+    "anticipation",
+    "contact",
+    "strike",
+    "follow",
+    "recover",
+    "recover"
+   ]
+  },
+  {
+   "clip": "slash",
+   "dir": "E",
+   "frames": 8,
+   "durations_ms": [
+    40,
+    40,
+    130,
+    60,
+    50,
+    130,
+    60,
+    100
+   ],
+   "loop": false,
+   "root": [
+    107,
+    122
+   ],
+   "root_50": [
+    107,
+    122
+   ],
+   "root_256": [
+    107,
+    122
+   ],
+   "roles": [
+    "windup",
+    "windup",
+    "anticipation",
+    "contact",
+    "strike",
+    "follow",
+    "recover",
+    "recover"
+   ]
+  },
+  {
+   "clip": "slash",
+   "dir": "NE",
+   "frames": 8,
+   "durations_ms": [
+    40,
+    40,
+    130,
+    60,
+    50,
+    130,
+    60,
+    100
+   ],
+   "loop": false,
+   "root": [
+    107,
+    122
+   ],
+   "root_50": [
+    107,
+    122
+   ],
+   "root_256": [
+    107,
+    122
+   ],
+   "roles": [
+    "windup",
+    "windup",
+    "anticipation",
+    "contact",
+    "strike",
+    "follow",
+    "recover",
+    "recover"
+   ]
+  },
+  {
+   "clip": "slash",
+   "dir": "N",
+   "frames": 8,
+   "durations_ms": [
+    40,
+    40,
+    130,
+    60,
+    50,
+    130,
+    60,
+    100
+   ],
+   "loop": false,
+   "root": [
+    107,
+    122
+   ],
+   "root_50": [
+    107,
+    122
+   ],
+   "root_256": [
+    107,
+    122
+   ],
+   "roles": [
+    "windup",
+    "windup",
+    "anticipation",
+    "contact",
+    "strike",
+    "follow",
+    "recover",
+    "recover"
+   ]
+  },
+  {
+   "clip": "dash",
+   "dir": "S",
+   "frames": 3,
+   "durations_ms": [
+    70,
+    80,
+    100
+   ],
+   "loop": false,
+   "root": [
+    107,
+    122
+   ],
+   "root_50": [
+    107,
+    122
+   ],
+   "root_256": [
+    107,
+    122
+   ],
+   "roles": [
+    "launch",
+    "glide",
+    "land"
+   ]
+  },
+  {
+   "clip": "dash",
+   "dir": "SE",
+   "frames": 3,
+   "durations_ms": [
+    70,
+    80,
+    100
+   ],
+   "loop": false,
+   "root": [
+    107,
+    122
+   ],
+   "root_50": [
+    107,
+    122
+   ],
+   "root_256": [
+    107,
+    122
+   ],
+   "roles": [
+    "launch",
+    "glide",
+    "land"
+   ]
+  },
+  {
+   "clip": "dash",
+   "dir": "E",
+   "frames": 3,
+   "durations_ms": [
+    70,
+    80,
+    100
+   ],
+   "loop": false,
+   "root": [
+    107,
+    122
+   ],
+   "root_50": [
+    107,
+    122
+   ],
+   "root_256": [
+    107,
+    122
+   ],
+   "roles": [
+    "launch",
+    "glide",
+    "land"
+   ]
+  },
+  {
+   "clip": "dash",
+   "dir": "NE",
+   "frames": 3,
+   "durations_ms": [
+    70,
+    80,
+    100
+   ],
+   "loop": false,
+   "root": [
+    107,
+    122
+   ],
+   "root_50": [
+    107,
+    122
+   ],
+   "root_256": [
+    107,
+    122
+   ],
+   "roles": [
+    "launch",
+    "glide",
+    "land"
+   ]
+  },
+  {
+   "clip": "dash",
+   "dir": "N",
+   "frames": 3,
+   "durations_ms": [
+    70,
+    80,
+    100
+   ],
+   "loop": false,
+   "root": [
+    107,
+    122
+   ],
+   "root_50": [
+    107,
+    122
+   ],
+   "root_256": [
+    107,
+    122
+   ],
+   "roles": [
+    "launch",
+    "glide",
+    "land"
+   ]
+  },
+  {
+   "clip": "hit",
+   "dir": "S",
+   "frames": 3,
+   "durations_ms": [
+    50,
+    70,
+    80
+   ],
+   "loop": false,
+   "root": [
+    107,
+    122
+   ],
+   "root_50": [
+    107,
+    122
+   ],
+   "root_256": [
+    107,
+    122
+   ],
+   "roles": [
+    "impact",
+    "recoil",
+    "recover"
+   ]
+  },
+  {
+   "clip": "hit",
+   "dir": "SE",
+   "frames": 3,
+   "durations_ms": [
+    50,
+    70,
+    80
+   ],
+   "loop": false,
+   "root": [
+    107,
+    122
+   ],
+   "root_50": [
+    107,
+    122
+   ],
+   "root_256": [
+    107,
+    122
+   ],
+   "roles": [
+    "impact",
+    "recoil",
+    "recover"
+   ]
+  },
+  {
+   "clip": "hit",
+   "dir": "E",
+   "frames": 3,
+   "durations_ms": [
+    50,
+    70,
+    80
+   ],
+   "loop": false,
+   "root": [
+    107,
+    122
+   ],
+   "root_50": [
+    107,
+    122
+   ],
+   "root_256": [
+    107,
+    122
+   ],
+   "roles": [
+    "impact",
+    "recoil",
+    "recover"
+   ]
+  },
+  {
+   "clip": "hit",
+   "dir": "NE",
+   "frames": 3,
+   "durations_ms": [
+    50,
+    70,
+    80
+   ],
+   "loop": false,
+   "root": [
+    107,
+    122
+   ],
+   "root_50": [
+    107,
+    122
+   ],
+   "root_256": [
+    107,
+    122
+   ],
+   "roles": [
+    "impact",
+    "recoil",
+    "recover"
+   ]
+  },
+  {
+   "clip": "hit",
+   "dir": "N",
+   "frames": 3,
+   "durations_ms": [
+    50,
+    70,
+    80
+   ],
+   "loop": false,
+   "root": [
+    107,
+    122
+   ],
+   "root_50": [
+    107,
+    122
+   ],
+   "root_256": [
+    107,
+    122
+   ],
+   "roles": [
+    "impact",
+    "recoil",
+    "recover"
+   ]
+  },
+  {
+   "clip": "death",
+   "dir": "S",
+   "frames": 5,
+   "durations_ms": [
+    80,
+    80,
+    80,
+    80,
+    1000
+   ],
+   "loop": false,
+   "root": [
+    107,
+    122
+   ],
+   "root_50": [
+    107,
+    122
+   ],
+   "root_256": [
+    107,
+    122
+   ],
+   "roles": [
+    "fall",
+    "fall",
+    "fall",
+    "fall",
+    "rest"
+   ]
+  },
+  {
+   "clip": "death",
+   "dir": "SE",
+   "frames": 5,
+   "durations_ms": [
+    80,
+    80,
+    80,
+    80,
+    1000
+   ],
+   "loop": false,
+   "root": [
+    107,
+    122
+   ],
+   "root_50": [
+    107,
+    122
+   ],
+   "root_256": [
+    107,
+    122
+   ],
+   "roles": [
+    "fall",
+    "fall",
+    "fall",
+    "fall",
+    "rest"
+   ]
+  },
+  {
+   "clip": "death",
+   "dir": "E",
+   "frames": 5,
+   "durations_ms": [
+    80,
+    80,
+    80,
+    80,
+    1000
+   ],
+   "loop": false,
+   "root": [
+    107,
+    122
+   ],
+   "root_50": [
+    107,
+    122
+   ],
+   "root_256": [
+    107,
+    122
+   ],
+   "roles": [
+    "fall",
+    "fall",
+    "fall",
+    "fall",
+    "rest"
+   ]
+  },
+  {
+   "clip": "death",
+   "dir": "NE",
+   "frames": 5,
+   "durations_ms": [
+    80,
+    80,
+    80,
+    80,
+    1000
+   ],
+   "loop": false,
+   "root": [
+    107,
+    122
+   ],
+   "root_50": [
+    107,
+    122
+   ],
+   "root_256": [
+    107,
+    122
+   ],
+   "roles": [
+    "fall",
+    "fall",
+    "fall",
+    "fall",
+    "rest"
+   ]
+  },
+  {
+   "clip": "death",
+   "dir": "N",
+   "frames": 5,
+   "durations_ms": [
+    80,
+    80,
+    80,
+    80,
+    1000
+   ],
+   "loop": false,
+   "root": [
+    107,
+    122
+   ],
+   "root_50": [
+    107,
+    122
+   ],
+   "root_256": [
+    107,
+    122
+   ],
+   "roles": [
+    "fall",
+    "fall",
+    "fall",
+    "fall",
+    "rest"
+   ]
+  }
+ ]
+}
