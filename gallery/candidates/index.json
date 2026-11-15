@@ -1,0 +1,301 @@
+{
+ "about": "Gallery candidates (?gallery=1): concept effects and characters for the owner's pick. Made by art/charsys/tools/fx_lab.py candidates; frames left to right in rows of `cols`.",
+ "groups": {
+  "dash-ground": "대시 바닥 이펙트 (후보)",
+  "wisp": "도깨비불 동료 (후보)"
+ },
+ "items": [
+  {
+   "id": "dash-fire",
+   "group": "dash-ground",
+   "title": "대시 바닥 이펙트: 화염",
+   "note": "지나간 자리에서 불이 일었다가 몇 군데만 남아 타고, 균열이 숨 쉬는 탄 자국과 불똥이 남았다가 사라짐.",
+   "status": "candidate",
+   "image": "dash-fire.png",
+   "frameW": 179,
+   "frameH": 56,
+   "cols": 12,
+   "frames": 72,
+   "frameMs": 50,
+   "loop": true,
+   "path": {
+    "from": [
+     19,
+     50
+    ],
+    "to": [
+     173,
+     50
+    ],
+    "ms": 200,
+    "startMs": 200
+   },
+   "source": "art/charsys/tools/fx_lab.py",
+   "date": "2026-11-15"
+  },
+  {
+   "id": "dash-void",
+   "group": "dash-ground",
+   "title": "대시 바닥 이펙트: 공허 결정 (시험용 외계 물질 A)",
+   "note": "보라·검정 결정이 솟았다 금 가고 부서져, 파편이 얼룩 위에 남았다가 녹아 사라짐.",
+   "status": "candidate",
+   "image": "dash-void.png",
+   "frameW": 174,
+   "frameH": 30,
+   "cols": 12,
+   "frames": 72,
+   "frameMs": 50,
+   "loop": true,
+   "path": {
+    "from": [
+     9,
+     23
+    ],
+    "to": [
+     163,
+     23
+    ],
+    "ms": 200,
+    "startMs": 200
+   },
+   "source": "art/charsys/tools/fx_lab.py",
+   "date": "2026-11-15"
+  },
+  {
+   "id": "dash-phase",
+   "group": "dash-ground",
+   "title": "대시 바닥 이펙트: 위상 잔광 (시험용 외계 물질 B)",
+   "note": "청록 잔상이 미끄러지며 줄 단위로 사라지고, 끊긴 빛줄기와 네모 빛 알갱이가 깜빡이다 꺼짐.",
+   "status": "candidate",
+   "image": "dash-phase.png",
+   "frameW": 201,
+   "frameH": 64,
+   "cols": 12,
+   "frames": 72,
+   "frameMs": 50,
+   "loop": true,
+   "path": {
+    "from": [
+     39,
+     55
+    ],
+    "to": [
+     193,
+     55
+    ],
+    "ms": 200,
+    "startMs": 200
+   },
+   "source": "art/charsys/tools/fx_lab.py",
+   "date": "2026-11-15"
+  },
+  {
+   "id": "dash-spore",
+   "group": "dash-ground",
+   "title": "대시 바닥 이펙트: 외계 포자 (시험용 외계 물질 C)",
+   "note": "점액이 튀고 거품이 터지며 포자가 깜빡이다, 웅덩이가 줄어들며 마름.",
+   "status": "candidate",
+   "image": "dash-spore.png",
+   "frameW": 158,
+   "frameH": 37,
+   "cols": 12,
+   "frames": 72,
+   "frameMs": 50,
+   "loop": true,
+   "path": {
+    "from": [
+     2,
+     25
+    ],
+    "to": [
+     156,
+     25
+    ],
+    "ms": 200,
+    "startMs": 200
+   },
+   "source": "art/charsys/tools/fx_lab.py",
+   "date": "2026-11-15"
+  },
+  {
+   "id": "dash-fire-v2",
+   "group": "dash-ground",
+   "title": "대시 바닥 이펙트: 화염 · 바닥 흔적 v2",
+   "note": "v2: 탄 자국이 불규칙한 모양(가운데 숯, 가장자리 그을음)으로 남고, 균열 불씨가 식으며 재가 피어오름. 가장자리부터 사라짐.",
+   "status": "candidate",
+   "image": "dash-fire-v2.png",
+   "frameW": 177,
+   "frameH": 55,
+   "cols": 12,
+   "frames": 72,
+   "frameMs": 50,
+   "loop": true,
+   "path": {
+    "from": [
+     17,
+     46
+    ],
+    "to": [
+     171,
+     46
+    ],
+    "ms": 200,
+    "startMs": 200
+   },
+   "source": "art/charsys/tools/fx_lab.py",
+   "date": "2026-11-15"
+  },
+  {
+   "id": "dash-void-v2",
+   "group": "dash-ground",
+   "title": "대시 바닥 이펙트: 공허 결정 · 바닥 흔적 v2",
+   "note": "v2: 보라·검정 얼룩이 불규칙하게 번지고 빛 알갱이가 천천히 반짝임. 결정 일부가 그루터기로 남아 가라앉음.",
+   "status": "candidate",
+   "image": "dash-void-v2.png",
+   "frameW": 172,
+   "frameH": 34,
+   "cols": 12,
+   "frames": 72,
+   "frameMs": 50,
+   "loop": true,
+   "path": {
+    "from": [
+     6,
+     25
+    ],
+    "to": [
+     160,
+     25
+    ],
+    "ms": 200,
+    "startMs": 200
+   },
+   "source": "art/charsys/tools/fx_lab.py",
+   "date": "2026-11-15"
+  },
+  {
+   "id": "dash-spore-v2",
+   "group": "dash-ground",
+   "title": "대시 바닥 이펙트: 외계 포자 · 바닥 흔적 v2",
+   "note": "v2: 웅덩이가 마른 자리에 굳은 딱지가 남고 포자 몇 개가 느리게 깜빡이다 가장자리부터 사라짐.",
+   "status": "candidate",
+   "image": "dash-spore-v2.png",
+   "frameW": 158,
+   "frameH": 37,
+   "cols": 12,
+   "frames": 72,
+   "frameMs": 50,
+   "loop": true,
+   "path": {
+    "from": [
+     2,
+     25
+    ],
+    "to": [
+     156,
+     25
+    ],
+    "ms": 200,
+    "startMs": 200
+   },
+   "source": "art/charsys/tools/fx_lab.py",
+   "date": "2026-11-15"
+  },
+  {
+   "id": "wisp-mong",
+   "group": "wisp",
+   "title": "도깨비불 동료: A 몽글 도깨비불",
+   "note": "둥근 몸, 위로 몽글몽글 올라가는 불꽃 방울, 동그란 눈과 작은 입",
+   "status": "candidate",
+   "image": "wisp-mong.png",
+   "frameW": 36,
+   "frameH": 50,
+   "cols": 12,
+   "frames": 56,
+   "frameMs": 50,
+   "loop": true,
+   "source": "art/charsys/tools/fx_wisp.py",
+   "date": "2026-11-15"
+  },
+  {
+   "id": "wisp-grin",
+   "group": "wisp",
+   "title": "도깨비불 동료: B 장난꾸러기 유령",
+   "note": "치켜 올라간 눈, 송곳니가 보이는 큰 웃음, 물결치는 꼬리",
+   "status": "candidate",
+   "image": "wisp-grin.png",
+   "frameW": 36,
+   "frameH": 50,
+   "cols": 12,
+   "frames": 56,
+   "frameMs": 50,
+   "loop": true,
+   "source": "art/charsys/tools/fx_wisp.py",
+   "date": "2026-11-15"
+  },
+  {
+   "id": "wisp-honbul",
+   "group": "wisp",
+   "title": "도깨비불 동료: C 작은 혼불",
+   "note": "작고 뾰족한 불꽃, 빛나는 실눈, 위로 튀는 푸른 불티",
+   "status": "candidate",
+   "image": "wisp-honbul.png",
+   "frameW": 36,
+   "frameH": 50,
+   "cols": 12,
+   "frames": 56,
+   "frameMs": 50,
+   "loop": true,
+   "source": "art/charsys/tools/fx_wisp.py",
+   "date": "2026-11-15"
+  },
+  {
+   "id": "wisp-mong-follow",
+   "group": "wisp",
+   "title": "도깨비불 동료: A 몽글 도깨비불 · 따라다니기",
+   "note": "주인공을 살짝 늦게 따라가고(스프링), 움직임 반대쪽으로 불꽃이 끌리며, 아래 바닥에 푸른 빛이 비침.",
+   "status": "candidate",
+   "image": "wisp-mong-follow.png",
+   "frameW": 210,
+   "frameH": 104,
+   "cols": 12,
+   "frames": 88,
+   "frameMs": 50,
+   "loop": true,
+   "source": "art/charsys/tools/fx_wisp.py",
+   "date": "2026-11-15"
+  },
+  {
+   "id": "wisp-grin-follow",
+   "group": "wisp",
+   "title": "도깨비불 동료: B 장난꾸러기 유령 · 따라다니기",
+   "note": "주인공을 살짝 늦게 따라가고(스프링), 움직임 반대쪽으로 불꽃이 끌리며, 아래 바닥에 푸른 빛이 비침.",
+   "status": "candidate",
+   "image": "wisp-grin-follow.png",
+   "frameW": 210,
+   "frameH": 104,
+   "cols": 12,
+   "frames": 88,
+   "frameMs": 50,
+   "loop": true,
+   "source": "art/charsys/tools/fx_wisp.py",
+   "date": "2026-11-15"
+  },
+  {
+   "id": "wisp-honbul-follow",
+   "group": "wisp",
+   "title": "도깨비불 동료: C 작은 혼불 · 따라다니기",
+   "note": "주인공을 살짝 늦게 따라가고(스프링), 움직임 반대쪽으로 불꽃이 끌리며, 아래 바닥에 푸른 빛이 비침.",
+   "status": "candidate",
+   "image": "wisp-honbul-follow.png",
+   "frameW": 210,
+   "frameH": 104,
+   "cols": 12,
+   "frames": 88,
+   "frameMs": 50,
+   "loop": true,
+   "source": "art/charsys/tools/fx_wisp.py",
+   "date": "2026-11-15"
+  }
+ ]
+}
