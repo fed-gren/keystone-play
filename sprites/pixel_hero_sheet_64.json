@@ -595,11 +595,12 @@
   {
    "clip": "dash",
    "dir": "S",
-   "frames": 3,
+   "frames": 4,
    "durations_ms": [
+    50,
+    60,
     70,
-    80,
-    100
+    70
    ],
    "loop": false,
    "root": [
@@ -616,6 +617,7 @@
    ],
    "roles": [
     "launch",
+    "drive",
     "glide",
     "land"
    ]
@@ -623,11 +625,12 @@
   {
    "clip": "dash",
    "dir": "SE",
-   "frames": 3,
+   "frames": 4,
    "durations_ms": [
+    50,
+    60,
     70,
-    80,
-    100
+    70
    ],
    "loop": false,
    "root": [
@@ -644,6 +647,7 @@
    ],
    "roles": [
     "launch",
+    "drive",
     "glide",
     "land"
    ]
@@ -651,11 +655,12 @@
   {
    "clip": "dash",
    "dir": "E",
-   "frames": 3,
+   "frames": 4,
    "durations_ms": [
+    50,
+    60,
     70,
-    80,
-    100
+    70
    ],
    "loop": false,
    "root": [
@@ -672,6 +677,7 @@
    ],
    "roles": [
     "launch",
+    "drive",
     "glide",
     "land"
    ]
@@ -679,11 +685,12 @@
   {
    "clip": "dash",
    "dir": "NE",
-   "frames": 3,
+   "frames": 4,
    "durations_ms": [
+    50,
+    60,
     70,
-    80,
-    100
+    70
    ],
    "loop": false,
    "root": [
@@ -700,6 +707,7 @@
    ],
    "roles": [
     "launch",
+    "drive",
     "glide",
     "land"
    ]
@@ -707,11 +715,12 @@
   {
    "clip": "dash",
    "dir": "N",
-   "frames": 3,
+   "frames": 4,
    "durations_ms": [
+    50,
+    60,
     70,
-    80,
-    100
+    70
    ],
    "loop": false,
    "root": [
@@ -728,6 +737,7 @@
    ],
    "roles": [
     "launch",
+    "drive",
     "glide",
     "land"
    ]
