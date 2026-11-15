@@ -1,0 +1,639 @@
+{
+ "char": "tier1_imp",
+ "label": "PLACEHOLDER \u2014 pipeline test, not a design. Tier-1 enemy production sheet (owner pick, meeting-log 20): Quaternius Bestiary Imp (QAL, free Standard zip, local cache only, not committed), alienised at render time.",
+ "config": "art/charsys/monsters/tier1_imp.json",
+ "render_key": "16cbfd214ebc",
+ "size_class": "normal",
+ "figure_px": 56,
+ "cell": 124,
+ "cell_50": 124,
+ "cell_256": 124,
+ "client_schema_note": "cell_50/root_50 = this native sheet (1 sheet px = 1 world unit at the hero's 64 px scale). The client schema also requires cell_256/root_256; there is no 256 px sheet, so they repeat the native values.",
+ "rows": [
+  {
+   "clip": "idle",
+   "dir": "S",
+   "frames": 4,
+   "durations_ms": [
+    333,
+    333,
+    333,
+    333
+   ],
+   "loop": true,
+   "root": [
+    62,
+    77
+   ],
+   "root_50": [
+    62,
+    77
+   ],
+   "root_256": [
+    62,
+    77
+   ]
+  },
+  {
+   "clip": "idle",
+   "dir": "SE",
+   "frames": 4,
+   "durations_ms": [
+    333,
+    333,
+    333,
+    333
+   ],
+   "loop": true,
+   "root": [
+    62,
+    77
+   ],
+   "root_50": [
+    62,
+    77
+   ],
+   "root_256": [
+    62,
+    77
+   ]
+  },
+  {
+   "clip": "idle",
+   "dir": "E",
+   "frames": 4,
+   "durations_ms": [
+    333,
+    333,
+    333,
+    333
+   ],
+   "loop": true,
+   "root": [
+    62,
+    77
+   ],
+   "root_50": [
+    62,
+    77
+   ],
+   "root_256": [
+    62,
+    77
+   ]
+  },
+  {
+   "clip": "idle",
+   "dir": "NE",
+   "frames": 4,
+   "durations_ms": [
+    333,
+    333,
+    333,
+    333
+   ],
+   "loop": true,
+   "root": [
+    62,
+    77
+   ],
+   "root_50": [
+    62,
+    77
+   ],
+   "root_256": [
+    62,
+    77
+   ]
+  },
+  {
+   "clip": "idle",
+   "dir": "N",
+   "frames": 4,
+   "durations_ms": [
+    333,
+    333,
+    333,
+    333
+   ],
+   "loop": true,
+   "root": [
+    62,
+    77
+   ],
+   "root_50": [
+    62,
+    77
+   ],
+   "root_256": [
+    62,
+    77
+   ]
+  },
+  {
+   "clip": "move",
+   "dir": "S",
+   "frames": 8,
+   "durations_ms": [
+    83,
+    83,
+    83,
+    83,
+    83,
+    83,
+    83,
+    83
+   ],
+   "loop": true,
+   "root": [
+    62,
+    77
+   ],
+   "root_50": [
+    62,
+    77
+   ],
+   "root_256": [
+    62,
+    77
+   ]
+  },
+  {
+   "clip": "move",
+   "dir": "SE",
+   "frames": 8,
+   "durations_ms": [
+    83,
+    83,
+    83,
+    83,
+    83,
+    83,
+    83,
+    83
+   ],
+   "loop": true,
+   "root": [
+    62,
+    77
+   ],
+   "root_50": [
+    62,
+    77
+   ],
+   "root_256": [
+    62,
+    77
+   ]
+  },
+  {
+   "clip": "move",
+   "dir": "E",
+   "frames": 8,
+   "durations_ms": [
+    83,
+    83,
+    83,
+    83,
+    83,
+    83,
+    83,
+    83
+   ],
+   "loop": true,
+   "root": [
+    62,
+    77
+   ],
+   "root_50": [
+    62,
+    77
+   ],
+   "root_256": [
+    62,
+    77
+   ]
+  },
+  {
+   "clip": "move",
+   "dir": "NE",
+   "frames": 8,
+   "durations_ms": [
+    83,
+    83,
+    83,
+    83,
+    83,
+    83,
+    83,
+    83
+   ],
+   "loop": true,
+   "root": [
+    62,
+    77
+   ],
+   "root_50": [
+    62,
+    77
+   ],
+   "root_256": [
+    62,
+    77
+   ]
+  },
+  {
+   "clip": "move",
+   "dir": "N",
+   "frames": 8,
+   "durations_ms": [
+    83,
+    83,
+    83,
+    83,
+    83,
+    83,
+    83,
+    83
+   ],
+   "loop": true,
+   "root": [
+    62,
+    77
+   ],
+   "root_50": [
+    62,
+    77
+   ],
+   "root_256": [
+    62,
+    77
+   ]
+  },
+  {
+   "clip": "attack",
+   "dir": "S",
+   "frames": 5,
+   "durations_ms": [
+    120,
+    90,
+    90,
+    120,
+    160
+   ],
+   "loop": false,
+   "root": [
+    62,
+    77
+   ],
+   "root_50": [
+    62,
+    77
+   ],
+   "root_256": [
+    62,
+    77
+   ]
+  },
+  {
+   "clip": "attack",
+   "dir": "SE",
+   "frames": 5,
+   "durations_ms": [
+    120,
+    90,
+    90,
+    120,
+    160
+   ],
+   "loop": false,
+   "root": [
+    62,
+    77
+   ],
+   "root_50": [
+    62,
+    77
+   ],
+   "root_256": [
+    62,
+    77
+   ]
+  },
+  {
+   "clip": "attack",
+   "dir": "E",
+   "frames": 5,
+   "durations_ms": [
+    120,
+    90,
+    90,
+    120,
+    160
+   ],
+   "loop": false,
+   "root": [
+    62,
+    77
+   ],
+   "root_50": [
+    62,
+    77
+   ],
+   "root_256": [
+    62,
+    77
+   ]
+  },
+  {
+   "clip": "attack",
+   "dir": "NE",
+   "frames": 5,
+   "durations_ms": [
+    120,
+    90,
+    90,
+    120,
+    160
+   ],
+   "loop": false,
+   "root": [
+    62,
+    77
+   ],
+   "root_50": [
+    62,
+    77
+   ],
+   "root_256": [
+    62,
+    77
+   ]
+  },
+  {
+   "clip": "attack",
+   "dir": "N",
+   "frames": 5,
+   "durations_ms": [
+    120,
+    90,
+    90,
+    120,
+    160
+   ],
+   "loop": false,
+   "root": [
+    62,
+    77
+   ],
+   "root_50": [
+    62,
+    77
+   ],
+   "root_256": [
+    62,
+    77
+   ]
+  },
+  {
+   "clip": "hit",
+   "dir": "S",
+   "frames": 3,
+   "durations_ms": [
+    125,
+    125,
+    120
+   ],
+   "loop": false,
+   "root": [
+    62,
+    77
+   ],
+   "root_50": [
+    62,
+    77
+   ],
+   "root_256": [
+    62,
+    77
+   ]
+  },
+  {
+   "clip": "hit",
+   "dir": "SE",
+   "frames": 3,
+   "durations_ms": [
+    125,
+    125,
+    120
+   ],
+   "loop": false,
+   "root": [
+    62,
+    77
+   ],
+   "root_50": [
+    62,
+    77
+   ],
+   "root_256": [
+    62,
+    77
+   ]
+  },
+  {
+   "clip": "hit",
+   "dir": "E",
+   "frames": 3,
+   "durations_ms": [
+    125,
+    125,
+    120
+   ],
+   "loop": false,
+   "root": [
+    62,
+    77
+   ],
+   "root_50": [
+    62,
+    77
+   ],
+   "root_256": [
+    62,
+    77
+   ]
+  },
+  {
+   "clip": "hit",
+   "dir": "NE",
+   "frames": 3,
+   "durations_ms": [
+    125,
+    125,
+    120
+   ],
+   "loop": false,
+   "root": [
+    62,
+    77
+   ],
+   "root_50": [
+    62,
+    77
+   ],
+   "root_256": [
+    62,
+    77
+   ]
+  },
+  {
+   "clip": "hit",
+   "dir": "N",
+   "frames": 3,
+   "durations_ms": [
+    125,
+    125,
+    120
+   ],
+   "loop": false,
+   "root": [
+    62,
+    77
+   ],
+   "root_50": [
+    62,
+    77
+   ],
+   "root_256": [
+    62,
+    77
+   ]
+  },
+  {
+   "clip": "death",
+   "dir": "S",
+   "frames": 5,
+   "durations_ms": [
+    150,
+    100,
+    100,
+    150,
+    900
+   ],
+   "loop": false,
+   "root": [
+    62,
+    77
+   ],
+   "root_50": [
+    62,
+    77
+   ],
+   "root_256": [
+    62,
+    77
+   ]
+  },
+  {
+   "clip": "death",
+   "dir": "SE",
+   "frames": 5,
+   "durations_ms": [
+    150,
+    100,
+    100,
+    150,
+    900
+   ],
+   "loop": false,
+   "root": [
+    62,
+    77
+   ],
+   "root_50": [
+    62,
+    77
+   ],
+   "root_256": [
+    62,
+    77
+   ]
+  },
+  {
+   "clip": "death",
+   "dir": "E",
+   "frames": 5,
+   "durations_ms": [
+    150,
+    100,
+    100,
+    150,
+    900
+   ],
+   "loop": false,
+   "root": [
+    62,
+    77
+   ],
+   "root_50": [
+    62,
+    77
+   ],
+   "root_256": [
+    62,
+    77
+   ]
+  },
+  {
+   "clip": "death",
+   "dir": "NE",
+   "frames": 5,
+   "durations_ms": [
+    150,
+    100,
+    100,
+    150,
+    900
+   ],
+   "loop": false,
+   "root": [
+    62,
+    77
+   ],
+   "root_50": [
+    62,
+    77
+   ],
+   "root_256": [
+    62,
+    77
+   ]
+  },
+  {
+   "clip": "death",
+   "dir": "N",
+   "frames": 5,
+   "durations_ms": [
+    150,
+    100,
+    100,
+    150,
+    900
+   ],
+   "loop": false,
+   "root": [
+    62,
+    77
+   ],
+   "root_50": [
+    62,
+    77
+   ],
+   "root_256": [
+    62,
+    77
+   ]
+  }
+ ]
+}
