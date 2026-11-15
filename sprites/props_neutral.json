@@ -1,0 +1,91 @@
+{
+ "label": "PLACEHOLDER - pipeline test, not a design. Theme-neutral ground props (P8) until story-1's region theme.",
+ "source": "art/charsys/tools/prop_render.py + prop_post.py, config art/charsys/env/props/props.json",
+ "units_note": "1 atlas px = 1 art px (the hero's 64 px scale, ART_UNIT world units). anchor = the prop's ground contact point inside its frame; place it on the art grid.",
+ "frames": [
+  {
+   "id": "pebble_a",
+   "x": 0,
+   "y": 0,
+   "w": 26,
+   "h": 21,
+   "anchor": [
+    13,
+    11
+   ],
+   "weight": 3
+  },
+  {
+   "id": "pebble_b",
+   "x": 27,
+   "y": 0,
+   "w": 20,
+   "h": 23,
+   "anchor": [
+    10,
+    12
+   ],
+   "weight": 3
+  },
+  {
+   "id": "stone_a",
+   "x": 48,
+   "y": 0,
+   "w": 18,
+   "h": 18,
+   "anchor": [
+    9,
+    9
+   ],
+   "weight": 2
+  },
+  {
+   "id": "stone_b",
+   "x": 67,
+   "y": 0,
+   "w": 22,
+   "h": 22,
+   "anchor": [
+    11,
+    12
+   ],
+   "weight": 2
+  },
+  {
+   "id": "stone_c",
+   "x": 90,
+   "y": 0,
+   "w": 20,
+   "h": 22,
+   "anchor": [
+    10,
+    14
+   ],
+   "weight": 2
+  },
+  {
+   "id": "slab_a",
+   "x": 0,
+   "y": 24,
+   "w": 42,
+   "h": 48,
+   "anchor": [
+    21,
+    27
+   ],
+   "weight": 1
+  },
+  {
+   "id": "slab_b",
+   "x": 43,
+   "y": 24,
+   "w": 58,
+   "h": 44,
+   "anchor": [
+    29,
+    25
+   ],
+   "weight": 1
+  }
+ ]
+}
