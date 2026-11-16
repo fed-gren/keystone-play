@@ -1,8 +1,9 @@
 {
- "about": "Gallery candidates (?gallery=1): concept effects and characters for the owner's pick. Made by art/charsys/tools/fx_lab.py candidates; frames left to right in rows of `cols`.",
+ "about": "Gallery candidates (?gallery=1): concept effects and characters for the owner's pick. Made by art/charsys/tools/fx_lab.py candidates and by artq gallery_export (art/charsys/tools/artq_gallery.py, merged by id); frames left to right in rows of `cols`.",
  "groups": {
   "dash-ground": "대시 바닥 이펙트 (후보)",
-  "wisp": "도깨비불 동료 (후보)"
+  "wisp": "도깨비불 동료 (후보)",
+  "hero-illust": "주인공 일러스트 (후보)"
  },
  "items": [
   {
@@ -296,6 +297,102 @@
    "loop": true,
    "source": "art/charsys/tools/fx_wisp.py",
    "date": "2026-11-15"
+  },
+  {
+   "id": "gal-rp-hero-front-tips-v1-1",
+   "group": "hero-illust",
+   "title": "주인공 앞모습 후보 1",
+   "note": "머리띠 오류를 고친 프롬프트로 다시 그린 상반신 3/4 측면. 숫자 검사 통과분을 점수 순으로.",
+   "status": "candidate",
+   "image": "gal-rp-hero-front-tips-v1-1.png",
+   "frameW": 224,
+   "frameH": 224,
+   "cols": 1,
+   "frames": 1,
+   "frameMs": 1000,
+   "loop": false,
+   "source": "art/charsys/tools/artq.py run rp-hero-front-tips-v1: outputs/images/bust_34/gen/sdedit_0.7_tips@q8/neutral_seed_101.png (score 1.8523)",
+   "date": "2026-11-16"
+  },
+  {
+   "id": "gal-rp-hero-front-tips-v1-2",
+   "group": "hero-illust",
+   "title": "주인공 앞모습 후보 2",
+   "note": "머리띠 오류를 고친 프롬프트로 다시 그린 상반신 3/4 측면. 숫자 검사 통과분을 점수 순으로.",
+   "status": "candidate",
+   "image": "gal-rp-hero-front-tips-v1-2.png",
+   "frameW": 224,
+   "frameH": 224,
+   "cols": 1,
+   "frames": 1,
+   "frameMs": 1000,
+   "loop": false,
+   "source": "art/charsys/tools/artq.py run rp-hero-front-tips-v1: outputs/images/bust_34/gen/sdedit_0.7_tips@q8/neutral_seed_83.png (score 1.8468)",
+   "date": "2026-11-16"
+  },
+  {
+   "id": "gal-rp-hero-front-tips-v1-3",
+   "group": "hero-illust",
+   "title": "주인공 앞모습 후보 3",
+   "note": "머리띠 오류를 고친 프롬프트로 다시 그린 상반신 정면. 숫자 검사 통과분을 점수 순으로.",
+   "status": "candidate",
+   "image": "gal-rp-hero-front-tips-v1-3.png",
+   "frameW": 224,
+   "frameH": 224,
+   "cols": 1,
+   "frames": 1,
+   "frameMs": 1000,
+   "loop": false,
+   "source": "art/charsys/tools/artq.py run rp-hero-front-tips-v1: outputs/images/bust_front/gen/sdedit_0.7_tips@q8/neutral_seed_11.png (score 1.8423)",
+   "date": "2026-11-16"
+  },
+  {
+   "id": "gal-rp-hero-front-tips-v1-4",
+   "group": "hero-illust",
+   "title": "주인공 앞모습 후보 4",
+   "note": "머리띠 오류를 고친 프롬프트로 다시 그린 상반신 3/4 측면. 숫자 검사 통과분을 점수 순으로.",
+   "status": "candidate",
+   "image": "gal-rp-hero-front-tips-v1-4.png",
+   "frameW": 224,
+   "frameH": 224,
+   "cols": 1,
+   "frames": 1,
+   "frameMs": 1000,
+   "loop": false,
+   "source": "art/charsys/tools/artq.py run rp-hero-front-tips-v1: outputs/images/bust_34/gen/sdedit_0.7_tips@q8/neutral_seed_29.png (score 1.8385)",
+   "date": "2026-11-16"
+  },
+  {
+   "id": "gal-rp-hero-front-tips-v1-5",
+   "group": "hero-illust",
+   "title": "주인공 앞모습 후보 5",
+   "note": "머리띠 오류를 고친 프롬프트로 다시 그린 상반신 정면. 숫자 검사 통과분을 점수 순으로.",
+   "status": "candidate",
+   "image": "gal-rp-hero-front-tips-v1-5.png",
+   "frameW": 224,
+   "frameH": 224,
+   "cols": 1,
+   "frames": 1,
+   "frameMs": 1000,
+   "loop": false,
+   "source": "art/charsys/tools/artq.py run rp-hero-front-tips-v1: outputs/images/bust_front/gen/sdedit_0.7_tips@q8/neutral_seed_83.png (score 1.8323)",
+   "date": "2026-11-16"
+  },
+  {
+   "id": "gal-rp-hero-front-tips-v1-6",
+   "group": "hero-illust",
+   "title": "주인공 앞모습 후보 6",
+   "note": "머리띠 오류를 고친 프롬프트로 다시 그린 상반신 3/4 측면. 숫자 검사 통과분을 점수 순으로.",
+   "status": "candidate",
+   "image": "gal-rp-hero-front-tips-v1-6.png",
+   "frameW": 224,
+   "frameH": 224,
+   "cols": 1,
+   "frames": 1,
+   "frameMs": 1000,
+   "loop": false,
+   "source": "art/charsys/tools/artq.py run rp-hero-front-tips-v1: outputs/images/bust_34/gen/sdedit_0.7_tips@q8/neutral_seed_131.png (score 1.8317)",
+   "date": "2026-11-16"
   }
  ]
 }
